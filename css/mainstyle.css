@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+/* p {
+    color: #64778d;
+} */
+
+/* Top Header Start  */
+#main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #74b5ab;
+    padding: 12px 0px;
+    transition: all ease-in-out 0.5s;
+}
+
+#main-header.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.top-left-address {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+
+.top-left-address span {
+    color: #fff;
+}
+
+.top-left-address i {
+    font-size: 12px;
+}
+
+.top-left-address .email-link {
+    margin-left: 30px;
+    color: #fff;
+
+}
+
+.top-left-address .email-link a {
+    color: #fff;
+}
+
+#main-header .right-socil-icon {
+    color: #fff;
+
+}
+
+.top-social-icons {
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.top-social-icons li {
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.top-social-icons li i {
+    color: #fff;
+    margin: 0 7px;
+    font-size: 13px;
+}
+
+/* <!-- Top-address-social-section End  --> */
+
+/* Main-navigation Section Css Style Start  */
+.super-stander {
+    padding: 30px 0;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+.super-stander.fix {
+    top: 0;
+}
+
+.standard {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    object-fit: contain;
+}
+
+.nav ul {
+    margin-left: 20px;
+    border: 1px solid red;
+}
+
+nav .top-main-nav ul li {
+    display: inline-block;
+
+}
+
+nav .top-main-nav ul li a {
+    display: block;
+    -webkit-transition: .2s;
+    transition: .2s;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    padding: 0 21px;
+}
+
+nav #search {
+    font-size: 18px;
+    margin-left: -10px;
+}
+
+nav .booking_Trcik {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background-color: #74b6ac;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 500;
+    padding: 13px 25px;
+    box-shadow: none;
+    border-radius: 0;
+
+
+}
+
+nav .top-main-nav ul li a i {
+    margin-left: 7px;
+    font-size: 13px;
+    font-weight: 900;
+    width: 13px;
+    height: 13px;
+    opacity: 1;
+
+
+    /* Main-navigation Section Css Style End  */
+}
+
+
+/* Top-main-banner-section-start   */
+.top-main-banner {
+    position: relative;
+    background-image: url(../webImages/slider-1.jpg);
+    width: 100%;
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-inner {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    background: #ffffffeb;
+    padding: 65px 0px;
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+
+
+
+.banner-inner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-left: 30px;
+
+}
+
+.banner-inner p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #b1b3b3;
+
+}
+
+.banner-inner .innerBtn {
+    padding: 14px 30px;
+    border: none;
+    outline: none;
+    background: #74b6ac;
+    color: #fff;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 18px 40px;
+    text-align: center;
+    transition: 1s;
+    font-weight: 400;
+    margin-left: 30px;
+
+}
+
+/***************************************** Top-main-banner-section-End****************************   */
+
+
+/* ************************Our Services Section Start*********************** */
+.our-services {
+    background-color: #74b6ac;
+    width: 100%;
+    /* height: 300px; */
+}
+
+.service-title-text {
+    text-align: center;
+    color: #fff;
+}
+
+.service-title-text h4 {
+    padding-top: 90px;
+
+}
+
+.service-title-text h1 {
+    font-size: 40px;
+}
+
+
+.successWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /* background-color: #fff; */
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 35px;
+}
+
+.successWrapper p {
+    color: #64778d;
+}
+
+.successWrapper h2 {
+    padding-bottom: 18px;
+}
+
+.success-rates-list {
+    padding: 100px 15px;
+    margin-left: 20px;
+    height: 350px;
+    padding-left: 55px;
+
+
+}
+
+#success-list-one {
+    /* border: 1px solid red; */
+    /* margin: 20px; */
+    background-color: #fff;
+
+}
+
+#success-list-two {
+    background-color: #fff;
+
+}
+
+#success-list-three {
+    background-color: #fff;
+
+}
+
+.success-rates-list a {
+    color: #74b6ac;
+    font-size: 14px;
+    line-height: 100px;
+}
+
+/* ************************Our Services Section End*********************** */
+
+
+/* ************************Our About us  Section Start*********************** */
+/* .our-about-section{
+    width: 80%; 
+    margin: 0 auto;
+} */
+.about-flex {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about-left-title h4 {
+    color: #74b6ac;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 70px;
+
+}
+
+.about-left-title h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.about-left-title p {
+    font-family: 'Heebo', sans-serif;
+    color: #64778d;
+    padding-top: 20px;
+
+}
+
+.about-thumb-pic {
+    padding-top: 40px;
+    margin-top: 50px;
+
+}
+
+/* **************************Our About us  Section End*********************** */
+
+
+/* Our Working Process Secton Start  */
+.working-process {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+    margin-top: 70px;
+    background-color: #f9f9f9;
+    /* background-color: red; */
+}
+
+.working-title {
+    text-align: center;
+
+}
+
+.working-title h2 {
+    font-weight: bolder;
+    color: #74b6ac;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.3;
+
+}
+
+.working-title h1 {
+    font-weight: bolder;
+    color: #02020a;
+    font-size: 40px;
+    font-weight: 900;
+
+
+
+}
+
+.working-process h3 {
+    color: #74b6ac;
+    font-size: 15px;
+    /* font-weight: bold; */
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 0px 15px;
+
+
+}
+
+.working-process p {
+    color: #64778d;
+    padding: 15px 15px;
+
+}
+
+.company-work-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    padding: 0 20px;
+    background-color: #fff;
+
+}
+
+.company-work-steps h2 {
+    padding: 0px 10px;
+}
+
+/* Our Working Process Secton Start  */
+
+
+
+/* Case Studies Section Start  */
+.case-studies {
+    width: 80%;
+    padding: 85px 0;
+    margin: 0 auto;
+}
+
+.case-studies h2 {
+    font-weight: bolder;
+    color: #74b6ac;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.case-studies h3 {
+    font-weight: bolder;
+    color: #02020a;
+    ;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.team-memebrs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-memebrs .memebr-1 {
+    /* margin: 10px; */
+    padding: 40px 10px;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.founder-wrapp {
+
+    background-color: #fff;
+    bottom: 90px;
+    left: 0;
+    margin: 0 30px;
+    padding: 21px 0;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 65px 0 rgb(0 0 0 / 8%);
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.founder-wrapp h5 {
+    text-align: center;
+}
+
+.founder-wrapp h5 a {
+    font-weight: 700;
+    /* border:1px solid red; */
+    font-family: Heebo, sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 600;
+    -webkit-transition: .5s;
+    transition: .5s;
+    font-size: 22px;
+    transition: .5s;
+    color: #02020a;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.founder-wrapp span {
+    color: #64778d;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+/* Case Studies Section End  */
+
+/* our-Working Services-MultiPockets Start  */
+.our-services-multipocket .booking_Trcik {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background-color: #74b6ac;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 13px 25px;
+    box-shadow: none;
+    border-radius: 0;
+
+
+
+}
+
+
+.our-services-multipocket h2 {
+    color: #74b6ac;
+    padding-top: 100px;
+    font-size: 15px;
+    margin: auto;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.our-services-multipocket h3 {
+    display: inline-block;
+    font-size: 40px;
+    margin: auto;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-right: 100px;
+    color: #02020a;
+}
+
+.our-services-multipocket p {
+    padding-right: 70px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.left-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pocket-img {
+    padding-top: 100px;
+}
+
+.left-title span {
+    color: #02020a;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+/* our-Services-MultiPockets Start  */
+
+/* Portfolio Work Section Start  */
+
+.portfolio-completed-work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.portfolio-completed-work img {
+    width: 100%;
+
+}
+
+.portfolio-01 {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.work-title h2 {
+
+    color: #74b6ac;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+
+}
+
+.work-title h3 {
+    font-size: 40px;
+    color: #02020a;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+/* Portfolio Work Section End  */
+
+.companies-logos {
+    background-color: #74b6ac;
+    padding: 90px;
+}
+
+/* Choose Your Best PLn Section Start  */
+.our-pricing h2 {
+    color: #74b6ac;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+ .our-pricing h3 {
+    font-size: 40px;
+    margin: auto;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+} 
+
+.pricing-plain-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.recommended-plan-01-title h4{
+    color: #74b6ac;
+    font-size: 16px;
+    padding: 26px 0 12px;
+}
+.recommended-plan-01-title h5{
+    color: black;
+    font-size: 35px;
+}
+.recommended-plan-01-title span{
+    color: black;
+    font-size: 21px;
+}
+.plan-list ul li {
+    color: #64768D;
+    font-size: 16px;
+    margin: 0 0 17px;
+    font-weight: 700;
+
+}
+.reg-button{
+    padding: 37px 0 40px;
+}
+.regestred-btn{
+    border-radius: 5px;
+    border: 1px solid #74b6ac;  
+    background-color: #74b6ac;
+    color: white;
+    font-size: 16px;
+    padding: 17px 30px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.regestred-btn:hover{
+    background-color: white;
+    color: #74b6ac;
+    transition: all ;
+}
+.recommended-plan-01:nth-child(2){
+    background-color: #74b6ac;
+} 
+
+.recommended-plan-01{
+    margin-left: 20px;
+    /* border:1px solid red */
+    border-radius: 10px;
+    padding: 30px 30px 20px 50px;
+    margin-top: 50px;
+
+}
+.white{
+    color: white;
+}
+.video-thumbnail-img{
+    margin: 30px  0;
+    padding: 70px 10px;
+}
+
+/* Choose Your Best PLn Section End   */
+
+
+/* Testimonial section styling Start */
+.testimonial{
+    background-color: #f5f8fb;
+    height: 100vh;    
+}
+
+.testimonial h2{
+    color: #74b6ac;
+    font-size: 16px;
+    text-align: center;
+    /* padding-top: 70px; */
+    /* margin-top: 20px; */
+    font-weight: 700;
+    line-height: 1.3;
+}
+.testimonial h3{
+    font-size: 40px;
+    margin: auto;
+    font-weight: 700;
+    text-align: center;    
+}
+.testimonial-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #fff;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+  .testimonial-cards .person-1{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(240 241 243);
+    
+
+    
+    margin: 0 20px; 
+    
+  }
+  .testimonial-cards .person-1 h2{
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.testimonial-cards .person-1 span{
+    text-align: center;
+    color: #74b6ac;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+
+}
+.testimonial-cards .person-1 p{
+    /* border: 1px solid red; */
+    padding: 10px 10px 20px 5px;
+    text-decoration: none;
+    color: #64768d;
+  
+    font-weight: normal;
+    font-size: 15px;
+
+}
+.testimonial-cards .person-info{
+    text-align: center;
+}
+/* Testimonial section styling End */
